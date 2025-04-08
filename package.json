@@ -1,0 +1,53 @@
+{
+  "name": "med",
+  "version": "1.0.0",
+  "description": "Медицинская клиника - веб-платформа для записи на прием, просмотра расписания врачей и отслеживания истории лечения",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaOzg/MED.git"
+  },
+  "keywords": [
+    "медицинская-клиника",
+    "запись-на-прием",
+    "расписание-врачей",
+    "история-лечения",
+    "nextjs",
+    "react",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaOzg/MED/issues"
+  },
+  "homepage": "https://github.com/MariaOzg/MED#readme",
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^14.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.1",
+    "zustand": "^4.5.2",
+    "postcss": "^8.4.38",
+    "autoprefixer": "^10.4.19"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.63",
+    "@types/react-dom": "^18.2.19",
+    "prisma": "^5.11.0",
+    "typescript": "^5.3.3"
+  }
+}
